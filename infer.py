@@ -134,8 +134,8 @@ class UNetDataClass(Dataset):
 # In[36]:
 
 
-images_path = '/kaggle/input/bkai-igh-neopolyp/train/train/'
-masks_path = '/kaggle/input/bkai-igh-neopolyp/train_gt/train_gt/'
+images_path = '/kaggle/input/train/train/'
+masks_path = '/kaggle/input/train_gt/train_gt/'
 
 
 # In[37]:
@@ -480,7 +480,7 @@ def test(dataloader):
 # In[50]:
 
 
-pretrained_path = '/kaggle/working/unet_model.pth'
+pretrained_path = '/kaggle/input/unet_model.pth'
 
 
 # In[51]:
